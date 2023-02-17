@@ -1,17 +1,19 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  padding: 60px 0;
+  padding-top: 100px;
+  background-color: #f7f7f7;
 `;
 
 export const Title = styled.h2`
-  font-size: 42px;
+  font-size: 3rem;
+  font-weight: bold;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 `;
 
 export const Paragraph = styled.p`
-  font-size: 18px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   line-height: 1.5;
-  margin-bottom: 20px;
 `;

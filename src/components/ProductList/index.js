@@ -1,20 +1,20 @@
 import React from "react";
-import { List, ListItem } from "./styles";
+import { List, ListItem, ProductListWrapper, Title } from "./styles";
 
 function ProductList({ tasks, type }) {
   const title = type === "products" ? "Produtos" : "Serviços";
 
   return (
-    <>
-      <h3>{title}</h3>
-      <List className="list-group">
+    <ProductListWrapper fluid id={type}>
+      <Title>{title}</Title>
+      <List>
         {tasks.map((task) => (
-          <ListItem className="list-group-item" key={task.id}>
+          <ListItem key={task.id}>
             {task.name} - {task.description}
           </ListItem>
         ))}
       </List>
-    </>
+    </ProductListWrapper>
   );
 }
 

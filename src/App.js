@@ -108,6 +108,12 @@ function App() {
       author: "José Santos",
       company: "Empresa 123",
     },
+    {
+      id: 4,
+      text: "Donec rhoncus ullamcorper nisi, ac hendrerit purus auctor eget. Sed quis sapien ut lacus tincidunt euismod.",
+      author: "Murilo Godoy",
+      company: "Empresa 1234",
+    },
   ];
 
   return (

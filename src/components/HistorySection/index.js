@@ -4,7 +4,7 @@ import { Section, Title, Paragraph } from "./styles";
 
 const HistorySection = ({ title, content }) => {
   return (
-    <Section>
+    <Section id="history">
       <Container>
         <Title>{title}</Title>
         {content.map((paragraph, index) => (
