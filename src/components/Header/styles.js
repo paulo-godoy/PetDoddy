@@ -47,3 +47,13 @@ export const NavItem = styled.li`
     }
   }
 `;
+
+export const Text = styled.h1`
+  color: #000;
+`;
+
+export const ContainerLogo = styled.div`
+  display: flex;
+  justify-content: start;
+  align-items: center;
+`;

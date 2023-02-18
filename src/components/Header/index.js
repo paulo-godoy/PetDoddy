@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import { HeaderWrapper, Logo } from "./styles";
+import { HeaderWrapper, Logo, Text, ContainerLogo } from "./styles";
 
 const Header = () => {
   const handleScroll = (id) => {
@@ -10,12 +10,20 @@ const Header = () => {
 
   return (
     <HeaderWrapper>
-      <Navbar bg="light" expand="md" fixed="top">
+      <Navbar
+        bg="light"
+        expand="md"
+        fixed="top"
+        className="justify-content-between"
+      >
         <Navbar.Brand href="#home">
-          <Logo
-            src={process.env.PUBLIC_URL + "/images/logo.jpg"}
-            alt="Logo do PetDoddy"
-          />
+          <ContainerLogo>
+            <Logo
+              src={process.env.PUBLIC_URL + "/images/logo.jpg"}
+              alt="Logo do PetDoddy"
+            />
+            <Text>Pet Doddy</Text>
+          </ContainerLogo>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
