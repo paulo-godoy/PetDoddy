@@ -14,7 +14,7 @@ export const Label = styled.label`
 `;
 
 export const Title = styled.h2`
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
@@ -23,6 +23,7 @@ export const Title = styled.h2`
 export const ContactWrapper = styled.div`
   background-color: #f7f7f7;
   padding: 60px 0;
+  padding-top: 100px;
 `;
 
 export const StyledContainer = styled(Container)`

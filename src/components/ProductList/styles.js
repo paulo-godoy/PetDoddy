@@ -20,7 +20,7 @@ export const ProductListWrapper = styled(Container)`
 `;
 
 export const Title = styled.h2`
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
