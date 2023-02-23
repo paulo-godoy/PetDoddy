@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Form, Button } from "react-bootstrap";
+import { Container, Form } from "react-bootstrap";
 import { Label, Title, ContactWrapper, SubmitButton } from "./styles";
 import { Formik } from "formik";
 import * as Yup from "yup";

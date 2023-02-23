@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container, Form, Button } from "react-bootstrap";
+import { Container, Form } from "react-bootstrap";
 
 export const ContactInfo = styled.div`
   display: flex;
