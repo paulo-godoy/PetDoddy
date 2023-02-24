@@ -114,6 +114,18 @@ function App() {
       author: "Murilo Godoy",
       company: "Empresa 1234",
     },
+    {
+      id: 5,
+      text: "Donec rhoncus ullamcorper nisi, ac hendrerit purus auctor eget. Sed quis sapien ut lacus tincidunt euismod.",
+      author: "José Santos",
+      company: "Empresa 12345",
+    },
+    {
+      id: 6,
+      text: "Donec rhoncus ullamcorper nisi, ac hendrerit purus auctor eget. Sed quis sapien ut lacus tincidunt euismod.",
+      author: "Fabrine Dalbosco",
+      company: "Empresa 12346",
+    },
   ];
 
   return (

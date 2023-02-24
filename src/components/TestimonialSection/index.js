@@ -15,7 +15,7 @@ const TestimonialSection = ({ testimonials }) => {
     <TestimonialSectionWrapper id="testimonials">
       <TestimonialTitle>Depoimentos de clientes</TestimonialTitle>
       <TestimonialContainer>
-        <Row>
+        <Row style={{ display: "flex", justifyContent: "center" }}>
           {testimonials.map((testimonial) => (
             <Testimonial key={testimonial.id} className="col-md-4">
               <TestimonialText>"{testimonial.text}"</TestimonialText>
