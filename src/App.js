@@ -83,7 +83,7 @@ function App() {
   const text = {
     title: "Nossa História",
     content: [
-      "O PetShop XYZ foi fundado em 2005 com o objetivo de fornecer produtos e serviços de qualidade para os animais de estimação de nossos clientes. Desde então, temos nos esforçado para manter nossa reputação de excelência em atendimento ao cliente e cuidados com animais.",
+      "O PetDoddy foi fundado em 2005 com o objetivo de fornecer produtos e serviços de qualidade para os animais de estimação de nossos clientes. Desde então, temos nos esforçado para manter nossa reputação de excelência em atendimento ao cliente e cuidados com animais.",
       "Ao longo dos anos, expandimos nossos serviços para incluir banho e tosa, hospedagem e treinamento de cães. Além disso, estamos constantemente procurando maneiras de inovar e melhorar nossos serviços para atender às necessidades em constante evolução de nossos clientes e seus animais de estimação.",
       "Nossa equipe é composta por profissionais qualificados e experientes que amam animais e estão comprometidos em fornecer o melhor atendimento possível. Estamos ansiosos para ajudá-lo a cuidar de seus animais de estimação e esperamos vê-lo em breve em nosso PetShop!",
     ],
